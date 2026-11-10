@@ -5,6 +5,7 @@
 }
 
 .footer > .container {
+  display: flex;
 }
 
 .footer-home {
@@ -21,3 +22,100 @@
   max-width: 264px;
   color: #f4f4fd;
 }
+
+.social-media-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.socials-list-footer {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 132px;
+  margin-right: 551px;
+  margin-top: 16px;
+}
+
+.inst-icon-footer {
+  background-color: #4d5ae5;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color ;
+
+}
+
+.twitter-icon-footer {
+   background-color: #4d5ae5;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color ;
+}
+
+.facebook-icon-footer {
+   background-color: #4d5ae5;
+   border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color ;
+}
+
+.linkedin-icon-footer {
+   background-color: #4d5ae5;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color ;
+}
+
+.inst-icon-footer:hover,
+.inst-icon-footer:focus,
+.twitter-icon-footer:hover,
+.twitter-icon-footer:focus,
+.facebook-icon-foote:hover,
+.facebook-icon-footer:focus,
+.linkedin-icon-footer:hover,
+.linkedin-icon-footer:focus {
+  background-color: #31d0aa;;
+}
+
+
+.footer-left {
+  margin-right: 120px;
+}
+
+
